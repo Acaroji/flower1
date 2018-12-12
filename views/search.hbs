@@ -1,0 +1,18 @@
+<div class="search">search a flower</div>
+    
+    <div class="search-flower">
+    <form action="/flower-search" method="POST">
+        <input type="text" name="searchFlower">
+        <input type="submit" value="search">
+    </form>
+    </div>
+<div class="description-flower">
+    {{#each showFlower}}
+        <h4>Name: {{this.Name}}</h4>
+        <h4>Colors: {{this.Colors}}</h4>
+        <h4>Characteristics: {{this.Characteristics}}</h4>
+        <h4>Phrase: {{this.Phrase}}</h4>
+        <h4>Season: {{this.Season}}</h4>
+    {{/each}}
+
+</div>

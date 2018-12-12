@@ -1,0 +1,134 @@
+
+.intro-part{
+ background-image: url("/images/colors.jpg");
+background-repeat: no-repeat;
+background-position: center; 
+border-radius: 50%;
+border-color: #444;
+}
+/* .container{
+    border: 1px red solid;
+    padding-top: 2%;
+    border-radius: 2%;
+
+} */
+h3{
+color:#F5ECEC;
+padding-top: 80px;
+font-weight: 900;
+font-size: xx-large;
+}
+p{
+color:#F5ECEC;
+padding-bottom: 10%;
+
+}
+.column{
+align-content: center;
+padding-bottom: 1%;
+}
+.rounded{
+padding-bottom: 2%;
+}
+*{
+box-sizing: border-box;
+}
+    
+*:focus {
+outline: none;
+    }
+body {
+font-family: Arial;
+
+}
+.initial {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-image: url("/images/MANDALA.jpg");
+padding: 20px;
+border-radius: 5px
+}
+.sign-screen{
+background-image: url("/images/mandala4.jpg");
+padding: 20px;
+border-radius: 5px
+}
+    
+.app-title {
+text-align: center;
+color: rgb(185, 26, 26);
+}
+    
+.form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+    
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+    
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+    
+.login-link {
+font-size: 12px;
+color: #444;
+display: block;
+margin-top: 12px;
+}
+.btn-success{
+background-color:#3DC831;
+margin: 5px;
+margin-bottom: 20px;
+}
+.error-message {
+background: #F02B63;
+box-sizing: border-box;
+color: #fff;
+margin: 20px auto;
+padding: 20px;
+width: 100%;
+}
+.account-message{
+padding-top: 20%;
+color:rgb(6, 9, 41);
+font-size: medium;
+font-weight: 900;
+padding-bottom: 0%;
+}
+.navbar{
+background-color: rgb(245, 111, 125); 
+
+}
+.description-flower{
+color: black;
+padding: 1px;
+}
+.share-a-flower{
+    padding-top:5%;
+    font-size: xx-large;
+    justify-content: center;
+    display: flex
+ }
+.add-flower{
+    padding-top:5%;
+    
+}
+.screen-share{
+    background-image: url("/images/mandala3.jpg");
+}

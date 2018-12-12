@@ -1,0 +1,37 @@
+
+<div class="bg">
+<form action="/flower-login" method="POST" id="form">
+
+<div class="initial">
+	<div class="login-screen">
+		<div class="app-title">
+			<h1>Log In</h1>
+		</div>
+
+	<div class="form">
+		<div class="control-group">
+			<input type="text" class="login-field" placeholder="username" id="login-name">
+		</div>
+
+		<div class="control-group">
+			<input type="password" class="login-field" placeholder="password" id="login-pass">
+		</div>
+
+		<button class="btn btn-primary btn-large btn-block" >Log In</button> 
+{{!-- 
+		{{#if errorMessage}}
+    		<div class="error-message">{{errorMessage}}</div>
+  		{{/if}} --}}
+		
+		<p class="account-message">
+			Don't you have  an account?
+		</p>
+		<button type="button"class="btn btn-info">Sign Up<a href="http://localhost:3000/flower-signup"></a></button>
+	</div>
+	</div>
+
+</div>
+
+</form>
+
+</div>

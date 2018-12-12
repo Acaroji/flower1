@@ -1,0 +1,43 @@
+<div class="screen-share">
+    <div class="share-a-flower">Share a flower</div>
+    
+    <div class="add-flower">
+        <form action="/flower-share" method="POST">
+
+            <div class="column d-flex justify-content-center">
+                <label for="">Name:</label>
+                <input type="text" name="Name">
+            </div>
+            <div class="column d-flex justify-content-center">
+                <label for="">Colors:</label>
+                <input type="text" name="Colors">
+            </div>
+            <div class="column d-flex justify-content-center">
+                <label for="">Characteristics:</label>
+                <input type="text" name="Characteristics">
+            </div>
+            <div class="column d-flex justify-content-center">
+                <label for="">Phrase:</label>
+                <input type="text" name="Phrase">  
+            </div> 
+            <div class="column d-flex justify-content-center">
+                <label for="">Season:</label>
+                <input type="text" name="Season">
+            </div>
+            <div class="column d-flex justify-content-center">
+                <button type="submit" class="btn btn-success">Add a flower</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <div class="description-flower">
+    {{#each showFlower}}
+        <h4>Name: {{this.Name}}</h4>
+        <h4>Colors: {{this.Colors}}</h4>
+        <h4>Characteristics: {{this.Characteristics}}</h4> 
+        <h4>Phrase: {{this.Phrase}}</h4>
+        <h4>Season: {{this.Season}}</h4>
+    {{/each}}
+
+</div>

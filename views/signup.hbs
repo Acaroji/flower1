@@ -1,0 +1,28 @@
+
+<form action="/flower-signup" method="POST">
+
+<div class="initial">
+	<div class="sign-screen">
+		<div class="app-title">
+			<h1>Sign Up</h1>
+		</div>
+
+	<div class="form">
+		<div class="control-group">
+			<input type="text" class="login-field" name="username" placeholder="username">
+		</div>
+
+		<div class="control-group">
+			<input type="password" class="login-field" name="password" placeholder="password">
+		</div>
+
+		<button class="btn btn-primary btn-large btn-block">Sign Up</button> 
+		
+		{{#each error}}
+  			<div class="error-message">{{text}}</div>
+		{{/each}}
+
+	</div>
+	</div>
+</div>
+</form>

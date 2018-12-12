@@ -1,0 +1,27 @@
+{
+  "name": "flowerapp",
+  "version": "1.0.0",
+  "main": "flowersApp.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "form-data": "^2.3.3",
+    "handlebars": "^4.0.12",
+    "mogoose": "^3.1.8",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.14",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
